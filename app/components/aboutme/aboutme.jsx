@@ -35,7 +35,7 @@ const AboutMe = () => {
           <AnimatedDiv delay={300}>
             <Card className="w-full sm:w-[90%] bg-transparent p-2 text-lightforeground rounded-3xl text-center">
               <Text className="text-5xl sm:text-6xl md:text-[85px] leading-snug font-bold">
-                1.7+
+                2+
               </Text>
               <Text className="text-base sm:text-lg md:text-[18px] font-semibold">
                 Years of Experience
@@ -57,13 +57,12 @@ const AboutMe = () => {
           <Box className="col-span-full md:col-span-8">
             <AnimatedDiv delay={450}>
               <Text className="mb-4 sm:mb-5 text-base sm:text-lg md:text-[20px]">
-                I am a passionate Frontend Developer with 1.7 years of
-                experience, dedicated to crafting visually compelling and
-                user-centric digital experiences. With expertise in
-                user-centered design principles, prototyping, and
-                cross-functional collaboration, I specialize in building
-                seamless interfaces that enhance user engagement, accessibility,
-                and brand consistency.
+                I am a passionate Frontend Developer with 2 years of experience,
+                dedicated to crafting visually compelling and user-centric
+                digital experiences. With expertise in user-centered design
+                principles, prototyping, and cross-functional collaboration, I
+                specialize in building seamless interfaces that enhance user
+                engagement, accessibility, and brand consistency.
               </Text>
             </AnimatedDiv>
             <AnimatedDiv delay={450}>
@@ -77,10 +76,7 @@ const AboutMe = () => {
             </AnimatedDiv>
             <AnimatedDiv delay={500}>
               <Text className="border bg-white text-background rounded-full px-4 sm:px-5 py-2 sm:py-3 inline-flex items-center text-base sm:text-lg md:text-[18px] gap-x-2 sm:gap-x-3 font-semibold transition-transform duration-500 hover:scale-105">
-                <Link
-                  target="_blank"
-                  href="/Prasanth_Frontend_Developer_Resume.pdf"
-                >
+                <Link target="_blank" href="/Prasanth_Frontend_Resume.pdf">
                   Download CV
                 </Link>
                 <DownloadIcon size={16} strokeWidth={3} />

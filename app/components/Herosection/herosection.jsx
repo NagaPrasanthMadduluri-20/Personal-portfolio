@@ -72,10 +72,7 @@ const HeroSection = () => {
           </AnimatedDiv>
           <AnimatedDiv delay={700}>
             <Button className="border md:border-0 w-full bg-transparent rounded-full px-5 py-6 md:py-7 inline-flex items-center text-[18px] gap-x-3 font-semibold transition-transform duration-500 hover:scale-105">
-              <Link
-                target="_blank"
-                href="/Prasanth_Frontend_Developer_Resume.pdf"
-              >
+              <Link target="_blank" href="Prasanth_Frontend_Resume.pdf">
                 Download CV
               </Link>
               <Download size={16} />
